@@ -8,7 +8,7 @@ const CreateSong = () => {
   const handleCreateSong = () => {
     const config = {
       method: "post",
-      url: "https://api.sunoapi.com/api/v2/suno/v3.5/custom/create-pure-music",
+      url: "https://cors-anywhere.herokuapp.com/https://api.sunoapi.com/api/v2/suno/v3.5/custom/create-pure-music",
       headers: {
         "Content-Type": "application/json",
         Authorization: `Bearer 353f8ff950bd3419e6765e1031b782a6`,
